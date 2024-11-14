@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abu">
+
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="364dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/uang"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="417dp"
+        android:layout_height="378dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/harga"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="254dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/logo"
+        android:layout_margin="16dp"
+        android:background="@color/black"
+        android:text="E-WALLET"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="254dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/logo"
+        android:layout_margin="16dp"
+        android:background="@color/black"
+        android:text="Transfer Bank"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="256dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/logo"
+        android:layout_margin="16dp"
+        android:background="@color/black"
+        android:text="Bayar"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="617dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
